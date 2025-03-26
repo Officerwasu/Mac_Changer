@@ -3,30 +3,22 @@ this readme is for the oldest version check latest version folder in the reposit
 # Mac_Changer
 This is a Python Program for linux which will help you to change your Mac Address temprory
 
+1. first download the zip or git clone the url
 
-To do this first you have to go to the directory enter command
+2. the navigate to the directory where you cloned the url 
 
+3. Now just copy thease commands 
 
+cd "Mac_changer(V -1.2)"
 
-cd Downloads
+python mac_changer.py --help
 
+now you will get a proper thing just put eth0 for changing MAC of ethernet 
 
-unzip Mac_Changer.zip
+and wlan0 for changing MAC of wifi 
 
+-i for interface like eth0
 
-cd Mac_Changer
+and -m for any mac you want but in syntax of 12:12:12:12:12:12
 
-
-chmod +x mac.sh
-
-
-./mac.sh
-
-
-Now Enter your Interface such as wlan0 or eth0
-
-
-and enter new_mac to this syntax 12:12:12:12:12:12
-
-
-it will change your mac for a reboot
+this will not change permanently 

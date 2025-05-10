@@ -1,3 +1,13 @@
+# Requirements
+* tkinter
+* sqlite3
+
+
+
+
+
+
+
 Username=vedant
 
 
